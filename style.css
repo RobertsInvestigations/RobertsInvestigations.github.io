@@ -50,11 +50,11 @@ margin-right: 30px;
 .fa-linkedin span:before {
   background: #0094BC;
 }
-.logoContainer {
+/*.logoContainer {
   height: 15%;
   width: 15%;
   z-index: 40;
-}
+}*/
 .containerInfo {
   display: flex;
   justify-content: center;
