@@ -44,6 +44,8 @@ margin-right: 30px;
   height: 85px;
   width: auto;
   padding-top: 10px;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 html {
   background-color: black;
