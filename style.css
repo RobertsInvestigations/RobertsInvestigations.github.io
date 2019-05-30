@@ -35,6 +35,9 @@ letter-spacing: 1.5px;
 text-transform: uppercase;
 margin-right: 30px;
 }*/
+.card-img-top {
+  max-width: 150px;
+}
 .fa-phone :hover,
 .fa-phone span,
 .fa-phone span:before {
