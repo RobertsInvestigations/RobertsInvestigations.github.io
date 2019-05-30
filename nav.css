@@ -27,8 +27,9 @@
 
 .logo {
   display: inline-block;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  min-height: 60px;
 }
 
 .navbar-toggle {
@@ -36,7 +37,7 @@
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   font-size: 24px;
 }
 
@@ -71,6 +72,7 @@
   .logo {
     margin-top: 0;
     min-height: 180px;
+    margin-left: 0;
   }
 
   .navbar-toggle {
@@ -79,6 +81,8 @@
 
   .logo:hover,
   .nav-links:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
