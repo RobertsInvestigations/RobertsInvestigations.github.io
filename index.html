@@ -108,7 +108,7 @@
   </nav> -->
 
   <body>
-
+<div id="page-container">   <div id="content-wrap">  
     <div class="containerInfo">
       <div class="backDrop">
       	<center>
@@ -124,17 +124,17 @@
       <nav id="social-sidebar" role="navigation" class= 'social'>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/reroberts/" class="fab fa-linkedin" target="blank">
+            <a href="https://www.linkedin.com/in/reroberts/" class="fab fa-linkedin" target="blank"onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'LinkedIn', eventLabel: 'LinkedIn - Mobile Button'});" >
                 <span>Linkedin</span>
             </a>
           </li>
-          <li>
-            <a href="tel:+19703636963" class="fa fa-phone">
+          <li class='mobile'>
+            <a href="tel:+19703636963" class="fa fa-phone" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Call - Mobile Button'});">
               <span>Call</span>
             </a>
           </li>
           <li>
-            <a href="mailto:Rachel@RobertsInvestigations.com" class="fa fa-envelope" target="blank">
+            <a href="mailto:Rachel@RobertsInvestigations.com" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Email', eventLabel: 'Email - Mobile Button'});" class="fa fa-envelope" target="blank">
               <span>Email</span>
             </a>
           </li>
@@ -148,14 +148,14 @@
   <img src="ppiac-logo-2019.png" class="card-img-top" alt="PPIAC">
   <div class="card-body">
     <p class="card-text">Professional Private Investigators Association of Colorado - Senior Member.</p>
-    <a href="https://ppiac.org/Sys/PublicProfile/34023158/3649878" class="btn btn-primary">PPIAC Member Profile</a>
+    <a href="https://ppiac.org/Sys/PublicProfile/34023158/3649878" class="btn btn-primary" onclick="ga('send', 'event', { eventCategory: 'ExternalLinks', eventAction: 'Click', eventLabel: 'PPIAC Button'});">PPIAC Member Profile</a>
   </div>
 </div>
 <div class="card text-white text-center bg-dark mb-3" style="width: 18rem;">
-  <img src="CDITC_Board_Certified_Logo.png" class="card-img-top" alt="...">
+  <img src="CDITC_Board_Certified_Logo.png" class="card-img-top" alt="CDITC">
   <div class="card-body">
     <p class="card-text">Board Certified Criminal Defense Investigator</p>
-    <a href="http://www.cditctraining.com/aboutus.html" class="btn btn-primary">About CDITC</a>
+    <a href="http://www.cditctraining.com/aboutus.html" class="btn btn-primary" onclick="ga('send', 'event', { eventCategory: 'ExternalLinks', eventAction: 'Click', eventLabel: 'CDITC Button'});">About CDITC</a>
   </div>
 </div>
 	</div>
@@ -190,4 +190,6 @@
 		</center>
 	</div>
 </footer>
+	</div>
+	  </div>
 </html>
