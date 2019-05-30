@@ -204,6 +204,7 @@ justify-content: center;
     height: 50px;
     width: auto;
     padding-top: 5px;
+    fill: #ffffff;
   }
   .containerInfo {
     margin-top: 50px;
