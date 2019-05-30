@@ -23,6 +23,7 @@
 		<link href="style.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+		<script src="main.js"></script>
 		<script src="https://kit.fontawesome.com/103b313af4.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 		<link rel="canonical" href="https://www.RobertsInvestigations.com"/>
@@ -76,8 +77,21 @@
 		</script>
 
 	</head>
-
-  <nav class="navbar navbar-inverse navbar-static-top">
+ <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+    </span>
+    <div class="logoContainer">
+        <a class="logoContainer" href="../index.html"><img src="RRLegalLogo_White.svg" alt="RR Investigations" class="logo" style="width: 100%; height: 100%; stroke: #ffffff; fill: #ffffff;" /></a>
+      </div>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+    </ul>
+  </nav>
+	
+<!--  <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -94,7 +108,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <body>
 
@@ -139,9 +153,8 @@
 		<div class="col-md-4">
 			<a href="http://www.cditctraining.com/aboutus.html" target="blank"><img class="memberLogo" src="CDITC_Board_Certified_Logo.png"></a>
 		</div>
-	</div>
-	<div class="row justify-content-center">
-		<div class="col-md-4">
+				<div class="w-100"></div>
+				<div class="col-md-4">
 			<p class="footerText">Professional Private Investigators Association of Colorado - Senior Member</p>
 		</div>	
 		<div class="col-md-4">
