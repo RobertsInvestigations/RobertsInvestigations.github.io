@@ -215,7 +215,13 @@ margin-right: 30px;
   padding: 0;
   margin: 0;
 }
-
+.infoSm {
+  text-decoration: none;
+  color: #ffffff;
+}
+.padTop {
+  padding-top: 20px;
+}
 @media only screen and (max-width: 769px){
   .container {
     width: 100% !important;
