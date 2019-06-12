@@ -43,6 +43,27 @@ body {
 .linkedinSize {
  font-size: 110px; 
 }
+@media only screen and (max-width: 1550px){
+  .iconCM {
+  width: 50%;
+  height: 50%;
+  }
+  .linkedinSize {
+    font-size: 72px; 
+  }
+  .iconPhone {
+    width: 20%;
+    height: 20%;
+  }
+    .centerYdiv {
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-right: 0;
+  }
+    h3 {
+    font-size: 1.5em;
+  }
+}
 @media only screen and (max-width: 769px){
   .iconCM {
   width: 50%;
