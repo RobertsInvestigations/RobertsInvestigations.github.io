@@ -57,8 +57,6 @@ margin-right: 30px;
 html {
   background-color: black;
   height: 100%;
-}
-body {
   font-family: Catamaran, sans-serif;
   color: white;
   height: 100%;
@@ -66,6 +64,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+body {
+  font-family: Catamaran, sans-serif;
+  color: white;
+  height: 100%;
+/*  background-image: url('maroonBells.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .getInTouch {
@@ -79,7 +86,7 @@ body {
   background:rgba(255,255,255, 0.1);
 }
 .linkedinSize {
- font: 110px; 
+ font-size: 110px; 
 }
 @media only screen and (max-width: 769px){
   .iconCM {
@@ -87,7 +94,7 @@ body {
   height: 50%;
   }
   .linkedinSize {
-    font: 50%; 
+    font-size: 50%; 
   }
   .iconPhone {
     width: 20%;
