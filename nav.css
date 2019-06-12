@@ -28,13 +28,6 @@ a {
   margin: 15px auto;
 }
 
-.logo {
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5px;
-  min-height: 100%;
-}
-
 .navbar-toggle {
   position: absolute;
   top: 10px;
@@ -50,6 +43,14 @@ a {
 .infoSm {
   text-decoration: none;
   color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  min-height: 100%;
+}
 }
 @media screen and (min-width: 768px) {
   .navbar {
