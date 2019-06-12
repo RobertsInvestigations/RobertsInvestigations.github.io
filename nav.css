@@ -78,9 +78,9 @@ a {
 
   .logo {
     margin-top: 0;
-    max-height: 8%;
- /*   min-height: 120px;
-    margin-left: 0;*/
+  /*   max-height: 8%;
+   min-height: 120px;*/
+    margin-left: 0;
   }
 
   .navbar-toggle {
