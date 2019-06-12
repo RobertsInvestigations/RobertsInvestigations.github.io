@@ -78,11 +78,16 @@ body {
   padding-right: 5%;
   background:rgba(255,255,255, 0.1);
 }
-
+.linkedinSize {
+ font: 110px; 
+}
 @media only screen and (max-width: 769px){
   .iconCM {
   width: 50%;
   height: 50%;
+  }
+  .linkedinSize {
+    font: 50%; 
   }
   .iconPhone {
     width: 20%;
