@@ -50,7 +50,8 @@ body {
   height: 50%;
   }
   .linkedinSize {
-
+  width: 80%;
+  height: 80%;
   }
   .iconPhone {
     width: 20%;
@@ -64,7 +65,7 @@ body {
     font-size: 1em;
   }
   .getInTouch {
-    font-size: 2em;
+    font-size: 3em;
   }
   .centerYdiv {
     margin-top: 5%;
