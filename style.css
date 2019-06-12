@@ -10,12 +10,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
-html,body {
-    display: flex;
-    flex-flow:column nowrap;
-    height:100vh; /* fix IE11 */
-    min-height:100%; /* fix IE11 */  
-}
+
 body {
   background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -202,6 +197,15 @@ body {
 }
 .padTop {
   padding-top: 20px;
+}
+/* IE ONLY */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+html,body {
+    display: flex;
+    flex-flow:column nowrap;
+    height:100vh; /* fix IE11 */
+    min-height:100%; /* fix IE11 */  
+  }
 }
 @media only screen and (max-width: 769px){
   .container {
