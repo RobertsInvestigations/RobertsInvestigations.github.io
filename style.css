@@ -16,28 +16,6 @@ html {
 body {
   background-color: rgba(0, 0, 0, 0) !important;
 }
-/*.navbar-inverse {
-  background-color: rgba(0, 0, 0, 0) !important;
-  margin-top: 0 !important;
-  border-color: rgba(0, 0, 0, 0) !important;
-}
-.container {
-  width: 100% !important;
-}
-div.navbar-collapse.collapse{
-  width: 90% !important;
-  margin-right: 10px !important;
-  float: right !important;
-  padding-top: 20px;
-}
-.navbar-nav>li>a {
-color: white !important;
-font-family: Catamaran, serif !important;
-font-size: 16px !important;
-letter-spacing: 1.5px;
-text-transform: uppercase;
-margin-right: 30px;
-}*/
 .card-img-top {
   max-width: 150px;
 }
@@ -56,11 +34,6 @@ margin-right: 30px;
 .fa-linkedin span:before {
   background: #0094BC;
 }
-/*.logoContainer {
-  height: 15%;
-  width: 15%;
-  z-index: 40;
-}*/
 .containerInfo {
   display: flex;
   justify-content: center;
@@ -72,7 +45,6 @@ margin-right: 30px;
 .backDrop {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  /*height: 120% !important;*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -109,9 +81,7 @@ margin-right: 30px;
   text-decoration: none !important;
   transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
 }
-/*.navbar, .navbar-default{
-  margin-bottom: 0 !important;
-} */
+
 /*=================SIDEBAR=====================*/
 #social-sidebar ul {
   list-style: none;
@@ -186,11 +156,6 @@ margin-right: 30px;
   display: flex !important;
   justify-content: space-around !important;
 }
-/*.logo {
-  height: 100px;
-  width: auto;
-  padding-top: 10px;
-}*/
   .desktop {
     display: flex;
   }
@@ -233,12 +198,6 @@ margin-right: 30px;
   .mobile {
     display: flex;
   }
-/*  .logo {
-    height: 50px;
-    width: auto;
-    padding-top: 5px;
-    fill: #ffffff;
-  } */
   .containerInfo {
     margin-top: 50px;
   }
@@ -253,23 +212,4 @@ margin-right: 30px;
   .downloadButton {
     font-size: .75em !important;
   }
-  /*.nav>li>a {
-    transition: .1s 0s ease-in-out, .1s 0s ease-in-out;
-    margin-right: 0px;
-    font-family: Catamaran, serif !important;
-    font-size: 14px !important;
-    letter-spacing: .2px;
-    text-transform: uppercase;
-  }
-  div.navbar-collapse.collapse.in{
-    margin-right: 0px !important;
-    padding-top: 0px !important;
-    border: white;
-
-  }
-  .memberLogos {
-    margin-top: 5%;
-    padding-top: 3%;
-    padding-right: 0;
-  }*/
 }
