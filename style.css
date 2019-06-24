@@ -25,8 +25,9 @@ body {
   height: 2.5rem;            /* Footer height */
 }
 .card-img-top {
-  max-width: 150px;
-  max-height: 150px;
+  object-fit: none;
+  object-position: 50% 50%; /* default value: image is centered*/
+  object-position: 0 0; /* positioned top left of the content box */
 }
 .paddingTop5Per {
   padding-top: 5%;
