@@ -26,6 +26,7 @@ body {
 }
 .card-img-top {
   max-width: 150px;
+  max-height: 150px;
 }
 .paddingTop5Per {
   padding-top: 5%;
